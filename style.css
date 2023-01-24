@@ -2,7 +2,7 @@
 body {
 
 	/*background-image: url("../img/tic_tac_toe_game-wallpaper-1366x768.jpg");*/
-	background: #00ff00 url("../img/tic_tac_toe_game-wallpaper-1366x768.jpg") no-repeat fixed center;
+	background: #00ff00 url("img/tic_tac_toe_game-wallpaper-1366x768.jpg") no-repeat fixed center;
 	
 }
 .welcome,
@@ -63,7 +63,7 @@ body {
 	
 	width: 400px;
 	height:600px;
-	background-image: url("../img/background.png");
+	background-image: url("img/background.png");
 	color:aqua;
 }
 .title{
