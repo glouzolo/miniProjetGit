@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body {
+
+	/*background-image: url("../img/tic_tac_toe_game-wallpaper-1366x768.jpg");*/
+	background: #00ff00 url("../img/tic_tac_toe_game-wallpaper-1366x768.jpg") no-repeat fixed center;
+	
+}
+.welcome,
+.pattern{
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+	left:50%;
+ 	 -ms-transform: translateX(-50%) translateY(-50%);
+  	transform: translateX(-50%) translateY(-50%);
+	width: 400px;
+	height: 200px;
+	background-color: black;
+	opacity: 0.95;
+	color:white;
+}
+#welcome h4{
+	margin:20px 40px;
+	display: inline-block;
+}
+#welcome button {
+	margin:80px auto;
+	width:160px;
+	font-size: 20px;
+	display: block;
+	
+}
+#mode h4 {
+	margin:10px 110px;
+	display: inline-block;
+}
+#onePlayer,#twoPlayers {
+	margin:30px auto;
+	display: block;
+}
+
+#symbol{
+	margin:10px auto;
+	width:400px;
+	height: 300px;
+	border:1px black solid;
+}
+#symbol li{
+	width:20%;
+	float:left;
+	display: inline-block;
+}
+/*#symbol img{
+	width:50px;
+	height:auto;
+}*/
+#symbol ul:after{
+	content: "";
+	display: block;
+	clear:both;
+}
+.pattern{
+	
+	width: 400px;
+	height:600px;
+	background-image: url("../img/background.png");
+	color:aqua;
+}
+.title{
+	position: relative;
+	width:400px;
+	height: 80px;
+	margin: auto;
+	font-size: 50px;
+	font-style:oblique;
+	font-weight: 500;
+	text-align: center;
+	border-bottom: 5px black solid;
+	margin-bottom: 20px;
+}
+#metrix{
+	font-family: "Muli", sans-serif;
+	position: relative;
+	width:400px;
+	height: 400px;
+	/*background-color: blueviolet;*/
+	color:black;
+	margin:auto;
+}
+.square{
+	width:120px;
+	height: 120px;
+	border:6px solid black;
+	float:left;
+	/*background-color: chartreuse;*/
+	font-size: 100px;
+	font-weight: 500;
+	/*color:aliceblue;*/
+	text-align: center;
+}
+#s1,#s4,#s7{
+	border-left-style: none;
+	margin-left:8px;
+}
+#s3,#s6,#s9{
+	border-right-style: none;
+	margin-right: 6px;
+}
+#s1,#s2,#s3{
+	border-top-style: none;
+}
+#s7,#s8,#s9{
+	border-bottom-style: none;
+}
+
+.metrix1{
+	position: absolute;
+	left: 0;
+	top: 185px;
+	width: 400px;
+	height: 0;
+	border-bottom: 10px solid red;
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+}
+.metrix2{
+	position: absolute;
+	left: 0;
+	top: 170px;
+	width: 400px;
+	height: 0;
+	border-bottom: 10px solid red;
+	-webkit-transform:rotate(135deg);
+	-moz-transform:rotate(135deg);
+	-ms-transform:rotate(135deg);
+	-o-transform:rotate(135deg);
+}
+.metrix3{
+	position: absolute;
+	left: 25px;
+	top: 53px;
+	width: 340px;
+	height: 0;
+	border-top:10px solid red;
+
+}
+.metrix4{
+	position: absolute;
+	left: 25px;
+	top: 183px;
+	width: 340px;
+	height: 0;
+	border-top:10px solid red;
+
+}
+.metrix5{
+	position: absolute;
+	left: 25px;
+	top: 299px;
+	width: 340px;
+	height: 0;
+	border-top:10px solid red;
+}
+.metrix6{
+	position: absolute;
+	left: 63px;
+	top: 20px;
+	height: 340px;
+	width: 0;
+	border-left:10px solid red;
+}
+.metrix7{
+	position: absolute;
+	left: 180px;
+	top: 20px;
+	height: 340px;
+	width: 0;
+	border-left:10px solid red;
+}
+.metrix8{
+	position: absolute;
+	right: 85px;
+	top: 20px;
+	height: 340px;
+	width: 0;
+	border-left:10px solid red;
+}
+#info{
+	width:400px;
+	height:100px;
+	border-top:5px black solid;
+	color:azure;
+}
+#info span{
+
+	border: 0px;
+	font-weight: bold;
+
+}
+#win, 
+#result{
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+	left:50%;
+ 	 -ms-transform: translateX(-50%) translateY(-50%);
+  	transform: translateX(-50%) translateY(-50%);
+	width: 400px;
+	height: 200px;
+	background-color: black;
+	opacity: 0.95;
+}
+#win h3{
+	padding-top: 10px;
+	font-size: 30px;
+	text-align: center;
+	color:floralwhite;
+}
+#win button{
+	margin-top: 50px;
+	margin-left: 50px;
+	width:120px;
+	display: inline-block;
+	color: black;
+}
+#result {
+
+	
+	color:white;
+}
+#result table {
+	margin-top:20px;
+	margin-left:10px;
+}
+
+#result button {
+	margin-left:140px;
+	display: inline-block;
+
+}
+ul{
+	list-style: none;
+	width:100%;
+}
+ul li{
+	width:30%;
+	float:left;
+	font-size:20px;
+	font-style: italic;
+	display: inline-block;
+	margin-right:3%;
+}
+
+ .clear::after{
+
+        content: "";
+        display:block;
+        clear:left;
+}
