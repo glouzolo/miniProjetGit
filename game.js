@@ -330,7 +330,7 @@ var gameTicTacToe = (function () {
     var turnStatus = document.createElement("h2");
     var symbolStatus = document.createElement("span");
     var currentUser = document.createElement("span");
-    var mode = document.createElement("h3");
+    var modeDeJeu = document.createElement("h3");
 
     turnStatus.setAttribute("id", "turn");
     turnStatus.innerHTML = "Turn -  ";
@@ -339,7 +339,7 @@ var gameTicTacToe = (function () {
     turnStatus.appendChild(symbolStatus);
     turnStatus.appendChild(currentUser);
 
-    mode.innerHTML = onePlayerMode ? "Solo" : "2 joueurs";
+    modeDeJeu.innerHTML = onePlayerMode ? "Solo" : "2 joueurs";
 
     gameInfo.appendChild(turnStatus);
     gameInfo.appendChild(mode);
