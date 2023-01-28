@@ -343,6 +343,8 @@ var gameTicTacToe = (function () {
     modeDeJeu.innerHTML = onePlayerMode ? "Solo" : "2 joueurs";
     butDuJeu.innerHTML = "But : créer en premier un alignement";
 
+    butDuJeu.style = "color: red";
+
     gameInfo.appendChild(turnStatus);
     gameInfo.appendChild(modeDeJeu);
     gameInfo.appendChild(butDuJeu);
