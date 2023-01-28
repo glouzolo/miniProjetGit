@@ -339,7 +339,7 @@ var gameTicTacToe = (function () {
     turnStatus.appendChild(symbolStatus);
     turnStatus.appendChild(currentUser);
 
-    mode.innerHTML = onePlayerMode ? "Solo" : "Multijoueur";
+    mode.innerHTML = onePlayerMode ? "Solo" : "2 joueurs";
 
     gameInfo.appendChild(turnStatus);
     gameInfo.appendChild(mode);
