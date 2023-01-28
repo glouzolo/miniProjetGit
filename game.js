@@ -331,6 +331,7 @@ var gameTicTacToe = (function () {
     var symbolStatus = document.createElement("span");
     var currentUser = document.createElement("span");
     var modeDeJeu = document.createElement("h3");
+    var butDuJeu = document.createElement("h3");
 
     turnStatus.setAttribute("id", "turn");
     turnStatus.innerHTML = "Turn -  ";
@@ -340,9 +341,11 @@ var gameTicTacToe = (function () {
     turnStatus.appendChild(currentUser);
 
     modeDeJeu.innerHTML = onePlayerMode ? "Solo" : "2 joueurs";
+    butDuJeu.innerHTML = "But : créer en premier un alignement";
 
     gameInfo.appendChild(turnStatus);
-    gameInfo.appendChild(mode);
+    gameInfo.appendChild(modeDeJeu);
+    gameInfo.appendChild(butDuJeu);
     gameDiv.appendChild(gameTitle);
     gameDiv.appendChild(gameMetrix);
     gameDiv.appendChild(gameInfo);
