@@ -677,6 +677,10 @@ var gameTicTacToe = (function () {
     initGame();
   };
 
+  var getStep = function () {
+    return step;
+  };
+
   return {
     gameModeSelect: gameModeSelect,
     onePlayerGame: onePlayerGame,
@@ -687,5 +691,6 @@ var gameTicTacToe = (function () {
     displayResults: displayResults,
     goBack: goBack,
     resetGame: resetGame,
+    getStep: getStep,
   };
 })();
