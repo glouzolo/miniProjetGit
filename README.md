@@ -1,2 +1,1 @@
-# miniProjetGit
-SI - Mini Projet Git
+Ceci est un fichier README
