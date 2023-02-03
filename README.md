@@ -22,5 +22,5 @@ Le premier joueur à remplir une ligne, une colonne ou une diagonale avec les sy
 
 Si toutes les cases sont remplies et qu'aucun joueur n'a rempli une ligne, une colonne ou une diagonale avec les symboles identiques, le jeu se termine sans vainqueur.
 
-Auteur
+Auteurs:
 BELLALA aymen, abderraouf chebbah, guez louzolo.
